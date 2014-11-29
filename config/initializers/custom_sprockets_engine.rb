@@ -8,6 +8,8 @@ class CustomTemplate < Tilt::Template
   def prepare; end
 
   def evaluate(context, locals, &block)
+    context.depend_on(__FILE__)
+
     %{
         alert("Generated " + ((Date.now() - #{Time.now.to_i * 1000}) / 1000) + " seconds ago");
         alert("VERSION is #{VERSION}");
