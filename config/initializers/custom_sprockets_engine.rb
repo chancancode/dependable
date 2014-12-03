@@ -5,6 +5,10 @@ class CustomTemplate < Tilt::Template
 
   self.default_mime_type = 'application/javascript'
 
+  def self.cache_key
+    [VERSION, Rails.configuration.custom]
+  end
+
   def prepare; end
 
   def evaluate(context, locals, &block)
