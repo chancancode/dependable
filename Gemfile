@@ -15,7 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'sprockets', github: 'sstephenson/sprockets', branch: 'processor-cache-key'
-gem 'sprockets-rails', github: 'chancancode/sprockets-rails', branch: 'hack'
+gem 'sprockets-rails', github: 'rails/sprockets-rails'
 gem 'tilt'
 
 # Use jQuery as the JavaScript library
@@ -48,4 +48,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
