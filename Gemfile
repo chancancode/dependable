@@ -6,13 +6,17 @@ gem 'rails', '4.2.0.beta4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.0.beta1'
+# gem 'sass-rails', '~> 5.0.0.beta1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+# gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+gem 'sprockets', github: 'sstephenson/sprockets', branch: 'processor-cache-key'
+gem 'sprockets-rails', github: 'chancancode/sprockets-rails', branch: 'hack'
+gem 'tilt'
 
 # Use jQuery as the JavaScript library
 gem 'jquery-rails', '~> 4.0.0.beta2'
@@ -37,7 +41,9 @@ group :development, :test do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0.0.beta4'
+  # gem 'web-console', '~> 2.0.0.beta4'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
