@@ -1,12 +1,11 @@
 GIT
-  remote: git://github.com/chancancode/sprockets-rails.git
-  revision: 8a6ba29dbec6548d25e9e37828607634d637ec2f
-  branch: hack
+  remote: git://github.com/rails/sprockets-rails.git
+  revision: 788c69b41971f804d657a0e90e42ce0f8142c99a
   specs:
     sprockets-rails (3.0.0.beta1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
-      sprockets (= 3.0.0.beta.5)
+      sprockets (~> 3.0.0.beta)
 
 GIT
   remote: git://github.com/sstephenson/sprockets.git
