@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rails/sprockets-rails.git
-  revision: 788c69b41971f804d657a0e90e42ce0f8142c99a
+  revision: 83c9259588ae2de12a48c0dfd5fc23d5383fb6bb
   specs:
     sprockets-rails (3.0.0.beta1)
       actionpack (>= 4.0)
@@ -9,10 +9,10 @@ GIT
 
 GIT
   remote: git://github.com/sstephenson/sprockets.git
-  revision: 859226f78c6b73cb5570afda71721798f1d549c3
+  revision: 928e8eb0c32677611a4fa6a4ef46c4aea14a0fc6
   branch: processor-cache-key
   specs:
-    sprockets (3.0.0.beta.5)
+    sprockets (3.0.0.beta.6)
       rack (~> 1.0)
 
 GEM
